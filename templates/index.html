@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QUINTEROOOOOO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos para asegurar que el texto se muestre completo */
+        html{
+            font-family: "Montserrat", sans-serif;;
+        }
+        body{
+            margin: 0;
+            background-color: #efefef;
+        }
+
+        header{
+            background-color: #65397A;
+            color: white;
+            padding: 3rem 2rem;
+        }
+        header h1{
+            font-size: 2rem;
+            text-align: center;
+        }
+        .container{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container button{
+            padding: 10px 20px;
+            color: white;
+            background-color: #65397A;
+            border: none;
+            cursor: pointer;
+        }
+        .container button:hover{
+            box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+        }
+        .container1 article{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container1 input {
+            border: 0;
+            width: 200px;
+            height: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="Titulo">Crea plantillas 3000</h1>
+    </header>
+    <form method="POST" action="/procesar">
+        <section class="container1">
+            <article>
+                <input type="text" class= "redondeado" name="InputA" placeholder="Ingresa A aquí">
+                <input type="text" name="InputB" placeholder="Ingresa B aquí">
+                <input type="text" name="InputCompetencia" placeholder="Ingresa competencia aquí">
+                <input type="text" name="InputX" placeholder="Ingresa jornada aquí">
+            </article>
+            <article>
+                <input type="text" name="InputEstadio" placeholder="Ingresa estadio aquí">
+                <input type="text" name="InputHora" placeholder="Ingresa hora aquí ejem: 12:00 AM">
+                <input type="text" name="InputC" placeholder="Ingresa capacidad del estadio aquí">
+                <input type="text" name="InputCanal" placeholder="Ingresa canal aquí">
+            </article>
+            <article>
+                <input type="text" name="InputApp" placeholder="Ingresa app aquí">
+                <input type="text" name="InputFecha" placeholder="Ingresa fecha aquí">
+                <input type="text" name="InputAr1" placeholder="Ingresa arbitro aquí">
+                <input type="text" name="InputAr2" placeholder="Ingresa arbitro asistente 1 aquí">
+            </article>
+            <article>
+                <input type="text" name="InputAr3" placeholder="Ingresa arbitro asistente 2 aquí">
+                <input type="text" name="InputAr4" placeholder="Ingresa cuarto arbitro aquí">
+                <input type="text" name="InputAr5" placeholder="Ingresa arbitro VAR aquí">
+                <input type="text" name="InputAr6" placeholder="Ingresa arbitro AVAR aquí">
+            </article>
+            <article>
+                <input type="text" name="InputAr7" placeholder="Ingresa el pais del estadio aquí">
+            </article>
+        </section>
+
+    <!-- Botón para activar la acción -->
+        <section class="container">
+            <button type="submit">Imprimir Texto</button>
+        </section>
+    </form>
+</body>
+</html>
